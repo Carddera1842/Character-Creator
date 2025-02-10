@@ -8,6 +8,10 @@ function Controls({ hairStyle, setHairStyle, outfit, setOutfit, hairColor, setHa
         <select value={hairStyle} onChange={(e) => setHairStyle(e.target.value)}>
           <option value="hair1">Hair 1</option>
           <option value="hair2">Hair 2</option>
+          <option value="hair3">Hair 3</option>
+          <option value="hair4">Hair 4</option>
+          <option value="hair5">Hair 5</option>
+          <option value="hair6">Hair 6</option>
         </select>
       </div>
 

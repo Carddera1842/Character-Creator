@@ -20,11 +20,11 @@ function Avatar({ hairStyle, outfit, hairColor }) {
     <div style={{ position: 'relative', width: 200, height: 300 }}>
       {/* Base Body */}
       <img
-        src="/body.png"
+        src="/face.jpg"
         alt="Character Base"
         style={{
           position: 'absolute',
-          top: 0,
+          top: 60,
           left: 0,
           zIndex: 1,
           width: '100%',
@@ -41,7 +41,7 @@ function Avatar({ hairStyle, outfit, hairColor }) {
           top: 0,
           left: 0,
           zIndex: 2,
-          width: '100%',
+          width: '110%',
           height: 'auto',
           ...hairStyleFilter // apply the filter
         }}
